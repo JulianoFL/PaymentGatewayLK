@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Projetos\ZoopGateway\ZoopGateway\bin\Release\publish\</_PublishTargetUrl>
+    <History>True|2021-04-06T20:46:28.3574822Z;True|2021-03-17T23:04:57.7355484-03:00;True|2021-03-17T21:23:45.3961975-03:00;True|2021-03-17T19:05:10.2093756-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=gatewaysdb.czqbzwf4vjnv.us-east-2.rds.amazonaws.com%3bDatabase=ZoopGatewayP%3buser=admin%3bpassword=DBUser1!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

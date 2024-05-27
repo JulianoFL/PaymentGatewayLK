@@ -1,0 +1,12 @@
+journalctl -u GroupPaymentsGateway.service -f
+
+http://localhost/swagger/index.html
+
+http://localhost/v1/swagger.json
+
+http://gpayments.paymenu.xyz/hangfire
+
+
+
+- Possível BUG = Quando adicionar recorrencia, ou mudar seu valor, pode ocorrer do pagador da taxa não ter valor a receber
+- Formas de fazer as divisões das regras de pagamento. Está dividindo igual entre os recebedores ativos. Talvez dividir proporcionalmente ao valor
